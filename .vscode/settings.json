@@ -1,0 +1,18 @@
+{
+    "debug.internalConsoleOptions": "neverOpen",
+    "diffEditor.diffAlgorithm": "advanced",
+    "diffEditor.experimental.showMoves": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.formatOnPaste": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.codeActionsOnSave": {},
+    "editor.formatOnSave": true,
+    "files.watcherExclude": {
+        ".venv": true
+    },
+    "scm.defaultViewMode": "tree",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "gitdoc.enabled": true
+}
