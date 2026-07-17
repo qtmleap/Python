@@ -4,11 +4,15 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ../:/home/vscode/app:cached
       - venv:/home/vscode/app/.venv
+      - uv-cache:/home/vscode/.cache/uv
+      - ../:/home/vscode/app:cached
+    environment:
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONUNBUFFERED: "1"
     tty: true
     stdin_open: true
 
 volumes:
   venv:
-    driver: local
+  uv-cache:
