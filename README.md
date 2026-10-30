@@ -1,6 +1,6 @@
-# app
+# Python
 
-Python プロジェクトのテンプレートです。
+uv と Dev Container を使った Python プロジェクトのテンプレートリポジトリです。
 
 ## 必要条件
 
